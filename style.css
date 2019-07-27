@@ -1,0 +1,76 @@
+body {
+    background-color: blueviolet;
+}
+
+
+p {
+    display: none
+
+}
+
+button {
+    display:block
+}
+
+#box1 {
+    width: 200px;
+    height: 200px;
+    background-color: skyblue;
+    display: none;
+}
+
+#box2 {
+    width: 200px;
+    height: 200px;
+    background-color: skyblue;
+    display: none;
+}
+.bg-blue{
+    background-color: skyblue;
+}
+
+.boxx {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 50px;
+    opacity: .4;
+    display: none;
+}
+
+#js-box-1.transform {
+    opacity: 1;
+    transform: scale(1.1);
+    background-image: url(eww.png);
+    background-size: cover;
+}
+
+#js-box-2.transform {
+    opacity: 1;
+    transform: scale(1.1);
+    background-image: url(slam.png);
+    background-size: cover;
+}
+
+#js-box-3.transform {
+    opacity: 1;
+    transform: scale(1.1);
+    background-image: url(hunter.png);
+    background-size: cover;
+}
+
+#js-box-4.transform {
+    opacity: 1;
+    transform: scale(1.1);
+    background-image: url(one.png);
+    background-size: cover;
+}
+
+div {
+    display: inline-block
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
